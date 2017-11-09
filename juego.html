@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BMO Arcade</title>
+    <link rel="stylesheet" href="css/juego.css">
+
+  </head>
+  <body>
+    <div class="col-40">
+      <div id="titulo">
+        <h1>Rompecabezas</h1>
+      </div>
+
+      <div id="instrucciones">
+        <h2>Instrucciones</h2>
+        <ul>
+          <li>Mover las piezas presionando las teclas de flechas</li>
+          <li>Encontrar el orden correcto de las piezas</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-60">
+      <div id="juego">
+        <div class="piezas" id="1"><img src="images/10.jpg"></div>
+        <div class="piezas" id="2"><img src="images/20.jpg"></div>
+        <div class="piezas" id="3"><img src="images/30.jpg"></div>
+        <div class="piezas" id="4"><img src="images/40.jpg"></div>
+        <div class="piezas" id="5"><img src="images/50.jpg"></div>
+        <div class="piezas" id="6"><img src="images/60.jpg"></div>
+        <div class="piezas" id="7"><img src="images/70.jpg"></div>
+        <div class="piezas" id="8"><img src="images/80.jpg"></div>
+        <div class="piezas" id="9"></div>
+      </div>
+    </div>
+    <footer>
+      <p>Autor: Iván Cabrera</p>
+    </footer>
+
+  <!-- Incluí Sweet alert https://limonte.github.io/sweetalert2/ -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/6.11.4/sweetalert2.all.min.js"></script>
+  <!-- Include a polyfill for ES6 Promises (optional) for IE11 and Android browser -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/core-js/2.4.1/core.js"></script> 
+  
+  <script src="js/juego.js"></script>
+
+  </body>
+</html>
